@@ -1,0 +1,1 @@
+ docker run -d --network=host -p 443:443 -p 40000-65535:40000-65535/udp -p 40000-65535:40000-65535/tcp erickespinozat/coturn:1.3
